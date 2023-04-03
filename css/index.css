@@ -1,0 +1,521 @@
+body {
+    font-family: 'Sarabun', sans-serif;
+
+}
+
+.nav {
+    height: 80px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav .navUL {
+    height: 100%;
+}
+
+.nav .navLI {
+    height: 100%;
+    display: inline-block;
+}
+
+.nav .navUL .navLI .navA {
+    font-size: calc(14px + 0.5vw);
+    color: black !important;
+    border: 3.4px solid transparent;
+}
+
+.nav .navUL .navLI .navA:hover {
+    border-bottom: 3.4px solid darkred;
+}
+
+.vehicels-items {
+    height: auto;
+}
+
+
+.ShoppingTools-items {
+    height: 380px;
+}
+
+/* .ShoppingToolsUL{} */
+.vehicels-items .vehicelsUL .vehicelsLI p {
+    font-size: calc(10px + 0.5vw);
+    border-top: 1px solid red;
+}
+
+.vehicels-items .vehicelsLI img {
+    transition: all 400ms ease;
+    width: 50%;
+}
+
+.vehicels-items .vehicelsLI:hover img {
+    scale: 1.1;
+}
+
+.ShoppingToolsPART2 .ShoppingToolsULPART2 {
+    width: 20%;
+}
+
+.ShoppingToolsPART2 .ShoppingToolsULPART2 li a {
+    font-size: calc(10px + 0.5vw);
+    color: black;
+}
+
+.swiper {
+    width: 100%;
+    height: calc(500px + 1.5vw);
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.text-part1 {
+    height: 200px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+    font-size: calc(10px + 0.5vw);
+    text-align: center;
+}
+
+.text-part1 .text-button-part1 button:nth-of-type(1) {
+    width: 40%;
+    height: calc(40px + 0.2vw);
+    background-color: #8f0c2c;
+    transition: all 350ms linear;
+}
+
+.text-part1 .text-button-part1 button:nth-of-type(1):hover {
+    background-color: #c7132b;
+}
+
+.text-part1 .text-button-part1 button:nth-of-type(2) {
+    width: 40%;
+    height: calc(40px + 0.2vw);
+    background-color: #414141;
+    transition: all 350ms linear;
+}
+
+.text-part1 .text-button-part1 button:nth-of-type(2):hover {
+    background-color: #585858;
+}
+
+.text-part2 {
+    height: 200px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+    font-size: calc(10px + 0.5vw);
+    text-align: center;
+}
+
+.text-part2 .text-button-part2 button:nth-of-type(2),
+button:nth-of-type(1) {
+    width: 40%;
+    height: calc(40px + 0.2vw);
+    background-color: #8f0c2c;
+    transition: all 350ms linear;
+}
+
+.text-part2 .text-button-part2 button:nth-of-type(2):hover,
+button:nth-of-type(1):hover {
+    background-color: #c7132b;
+}
+
+.brand-alfaromeo .brand-text-part {
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+}
+
+.brand-alfaromeo .brand-text-part p:nth-of-type(1) {
+    font-size: calc(15px + 0.5vw);
+    font-weight: 500;
+}
+
+.brand-alfaromeo .brand-text-part p:nth-of-type(2) {
+    font-size: calc(10px + 0.5vw);
+}
+
+.Explore-cars .first-explanation-explore-cars {
+    font-size: calc(20px + 0.5vw);
+}
+
+.Explore-cars .first-explanation-explore-cars p:nth-of-type(2) {
+    font-size: calc(10px + 0.5vw);
+    font-weight: 300;
+    color: gray;
+}
+
+.Explore-cars .cars-models {
+    cursor: pointer;
+}
+
+.Explore-cars .cars-models p {
+    text-align: center;
+    font-size: calc(10px + 0.5vw);
+    font-style: italic;
+    border-top: 1px solid #8f0c2c;
+}
+
+.Explore-cars .cars-models .carIMG {
+    transition: all 300ms ease;
+}
+
+.Explore-cars .cars-models .carIMG:hover {
+    transform: scale(1.08);
+}
+
+.Experience .second-experience-text {
+    font-size: calc(20px + 0.5vw);
+    background-color: rgb(204, 200, 200);
+}
+
+.Experience .ExperienceCar p:nth-of-type(1) {
+    width: 100%;
+    font-size: calc(10px + 0.5vw);
+    font-style: italic;
+    border-bottom: 1px solid #c7132b;
+}
+
+.Experience .ExperienceCar p:nth-of-type(2) {
+    font-size: calc(9px + 0.5vw);
+    color: gray;
+    text-align: justify;
+}
+
+.Experience .ExperienceCar img {
+    height: 65%;
+}
+
+.Experience .Experience-items .contentbar {
+    height: 150px;
+}
+
+.Experience .Experience-items {
+    height: 600px;
+}
+
+.Experience .Experience-items button {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.discover .discover-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.discover .discover-text p:nth-of-type(1) {
+    font-size: calc(22px + 0.5vw);
+    color: wheat;
+    font-weight: 500;
+}
+
+.alfaromeo-icons .icon-item {
+    height: 110px;
+}
+
+.alfaromeo-icons .icon-item img {
+    position: absolute;
+    top: 10px;
+    transition: all 300ms ease;
+}
+
+.alfaromeo-icons .icon-item:hover img {
+    position: absolute;
+    top: 0;
+}
+
+.alfaromeo-icons .icon-item:hover {
+    cursor: pointer;
+}
+
+.SignUp {
+    background-color: #e4e1e1;
+}
+
+.SignUp .SignUp-text p:nth-of-type(1) {
+    font-size: calc(22px + 0.5vw);
+    font-weight: 300;
+}
+
+.SignUp .SignUp-text p:nth-of-type(2) {
+    font-size: calc(10px + 0.5vw);
+}
+
+.firstfooter {
+    height: 100px;
+    background-color: #212121;
+}
+
+.firstfooterUL .firstfooterLI .firstfooterA {
+    font-size: calc(12px + 0.5vw);
+    color: #eaeaea;
+}
+
+
+.firstfooterUL .firstfooterLI {
+    width: 17%;
+}
+
+.firstfooterUL .firstfooterLI .firstfooterA:hover {
+    text-decoration: underline white !important;
+    cursor: pointer;
+}
+
+.firstfooterUL .firstfooterLI .firstfooterA i {
+    font-size: calc(7px + 0.5vw);
+}
+
+.secondfooter {
+    background-color: black;
+}
+
+.secondfooter .header-part1 {
+    height: 50px;
+    cursor: pointer;
+}
+
+.secondfooter .header-part1,
+.header-part2 p {
+    display: inline-block;
+    font-size: calc(12px + 0.5vw);
+    color: white;
+    line-height: 50px;
+}
+
+.footerItem {
+    border-bottom: 1px solid rgb(212, 209, 209);
+}
+
+.secondfooter .header-part1 i {
+    top: 50%;
+    right: 3%;
+    transform: translate(-50%, -50%);
+    font-size: calc(20px);
+    color: white;
+}
+
+.footerULitem li a {
+    font-size: calc(10px + 0.5vw);
+    color: white;
+    padding: 5px 10px;
+}
+
+.footerULitem li a:hover {
+    text-decoration: underline white !important;
+}
+
+
+.SocialMediaLinks .SocialMediaIcons {
+    cursor: pointer;
+}
+
+.SocialMediaLinks .SocialMediaIcons i {
+    transition: all 300ms ease;
+    font-size: calc(18px + 0.5vw);
+}
+
+.SocialMediaLinks .SocialMediaIcons i:hover {
+    color: #8f0c2c;
+}
+
+.last-explanation .explanation-items {
+    font-size: calc(5px + 0.5vw);
+}
+
+.VideoIcon {
+    width: 30px;
+    height: 30px;
+    opacity: 0.6;
+}
+
+.ShoppingToolsPART2 .ShoppingToolsULPART2  li a:hover{
+    text-decoration: underline black !important;
+}
+
+.ad-buttons{
+    top: 10px;
+    left: 0;
+}
+.ad-icon{
+    width: calc(25px + 0.5vw) !important;
+    height: calc(25px + 0.5vw) !important;
+    background-color: gray !important;
+}
+@media all and (min-width:576px) {
+    .footerItem {
+        border: 0;
+    }
+}
+
+@media all and (max-width:575px) {
+    .SocialMediaLinks {
+        border: 0 !important;
+    }
+
+    .last-explanation .explanation-items {
+        font-size: calc(7px + 0.5vw);
+    }
+}
+
+@media all and (max-width:767px) {
+    .navIMG {
+        position: absolute;
+        left: 10px;
+    }
+
+    .vehicels-items,
+    .submenu {
+        position: absolute;
+        right: 0;
+    }
+
+    .submenu .submenuUL li a {
+        font-size: calc(13px + 0.5vw);
+        color: black;
+    }
+
+    .text-part1 {
+        height: 300px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.8;
+        font-size: calc(8px + 0.5vw);
+        text-align: center;
+    }
+
+    .text-part1 img {
+        width: 50% !important;
+    }
+
+    .text-part1 .text-button-part1 {
+        width: 100%;
+    }
+
+    .text-part1 .text-button-part1 button:nth-of-type(1) {
+        width: 47%;
+        height: calc(40px + 0.2vw);
+        background-color: #8f0c2c;
+        transition: all 350ms linear;
+    }
+
+    .text-part1 .text-button-part1 button:nth-of-type(1):hover {
+        background-color: #c7132b;
+    }
+
+    .text-part1 .text-button-part1 button:nth-of-type(2) {
+        width: 47%;
+        height: calc(40px + 0.2vw);
+        background-color: #414141;
+        transition: all 350ms linear;
+    }
+
+    .text-part1 .text-button-part1 button:nth-of-type(2):hover {
+        background-color: #585858;
+    }
+
+
+    .text-part2 {
+        height: 200px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.8;
+        font-size: calc(8px + 0.5vw);
+        text-align: center;
+    }
+
+    .text-part2 .text-button-part2 button:nth-of-type(2),
+    button:nth-of-type(1) {
+        width: 50%;
+        height: calc(40px + 0.2vw);
+        background-color: #8f0c2c;
+        transition: all 350ms linear;
+
+    }
+
+    .text-advertisment-part {
+        top: 90%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        font-size: calc(10px + 0.5vw);
+    }
+
+    .brand-alfaromeo .brand-text-part {
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .Experience .Experience-items {
+        overflow-x: scroll;
+        /* overflow-y: hidden; */
+    }
+
+
+
+    .Experience .Experience-items .ExperienceCar>img {
+        height: 65%;
+    }
+
+    .Experience .Experience-items {
+        height: 600px;
+    }
+
+    .discover img {
+        height: 500px !important;
+    }
+
+    .firstfooterUL {
+        flex-wrap: wrap;
+    }
+
+    .firstfooterUL .firstfooterLI {
+        width: 30%;
+    }
+
+    .Experience .Experience-items {
+        height: 500px;
+    }
+    .Experience .Experience-items img{
+        height: 60% !important;
+    }
+}
+
+@media all and (min-width:768px) {
+    .vehicels-items {
+        height: 280px;
+    }
+
+    .vehicels-items .vehicelsLI img {
+        transition: all 400ms ease;
+        width: 60%;
+    }
+
+    .SignUp-button {
+        position: relative;
+    }
+
+    .SignUp-button button {
+        position: absolute;
+        right: 20%;
+        top: 50%;
+    }
+}
+
+.hidden-height {
+    height: 0 !important;
+}
+
+.background-color-special{
+    background-color: white !important;
+}
