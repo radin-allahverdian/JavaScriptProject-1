@@ -19,7 +19,7 @@ body {
 }
 
 .nav .navUL .navLI .navA {
-    font-size: calc(14px + 0.5vw);
+    font-size: calc(12px + 0.5vw);
     color: black !important;
     border: 3.4px solid transparent;
 }
@@ -57,18 +57,17 @@ body {
 }
 
 .ShoppingToolsPART2 .ShoppingToolsULPART2 li a {
-    font-size: calc(10px + 0.5vw);
+    font-size: calc(8px + 0.5vw);
     color: black;
 }
 
 .swiper {
     width: 100%;
-    height: calc(500px + 1.5vw);
+    height: calc(100px + 1.5vw);
 }
 
 .swiper-slide img {
     width: 100%;
-    height: 100%;
 }
 
 .text-part1 {
@@ -189,7 +188,7 @@ button:nth-of-type(1):hover {
 }
 
 .Experience .ExperienceCar img {
-    height: 65%;
+    height: 80%;
 }
 
 .Experience .Experience-items .contentbar {
@@ -197,12 +196,12 @@ button:nth-of-type(1):hover {
 }
 
 .Experience .Experience-items {
-    height: 600px;
+    height: 450px;
 }
 
 .Experience .Experience-items button {
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     left: 10px;
 }
 
@@ -251,7 +250,7 @@ button:nth-of-type(1):hover {
 }
 
 .firstfooter {
-    height: 100px;
+    height: 70px;
     background-color: #212121;
 }
 
@@ -304,7 +303,7 @@ button:nth-of-type(1):hover {
 }
 
 .footerULitem li a {
-    font-size: calc(10px + 0.5vw);
+    font-size: calc(8px + 0.5vw);
     color: white;
     padding: 5px 10px;
 }
@@ -341,6 +340,10 @@ button:nth-of-type(1):hover {
     text-decoration: underline black !important;
 }
 
+.ASHOPPINGTOOLULfirst{
+    font-size: calc(9px + 0.5vw) !important;
+}
+
 .ad-buttons{
     top: 10px;
     left: 0;
@@ -354,6 +357,19 @@ button:nth-of-type(1):hover {
     .footerItem {
         border: 0;
     }
+
+}
+
+@media all and (min-width:1200px) {
+    .Experience .Experience-items .Experience-button  {
+        width: calc(150px + 0.5vw) !important;
+        position: absolute;
+        bottom: 60px;
+        left: 10px;
+    }
+    .Experience .Experience-items  {
+        height: 450px !important;
+    }
 }
 
 @media all and (max-width:575px) {
@@ -364,6 +380,19 @@ button:nth-of-type(1):hover {
     .last-explanation .explanation-items {
         font-size: calc(7px + 0.5vw);
     }
+    .text-part1 {
+        height: 100px;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.8;
+        font-size: calc(10px + 0.5vw);
+        text-align: center;
+    }
+
+    
+ 
+    
 }
 
 @media all and (max-width:767px) {
@@ -489,6 +518,15 @@ button:nth-of-type(1):hover {
     .Experience .Experience-items img{
         height: 60% !important;
     }
+
+    .firstfooter {
+        height: 100px;
+        background-color: #212121;
+    }
+    .text-part1,.text-part2 {
+        visibility: hidden;
+    }
+
 }
 
 @media all and (min-width:768px) {

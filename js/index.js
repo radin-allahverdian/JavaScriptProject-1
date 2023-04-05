@@ -1,12 +1,12 @@
 $(document).ready(function () {
 
     const vehicelsItems = document.querySelector(".vehicels-items"); // **
-    const vehicelsButton = document.querySelector(".vehicelsLI");
     const ShoppingToolsItems = document.querySelector(".ShoppingTools-items");
-    const ShoppingToolsButton = document.querySelector(".shoppingtoolsLI"); // **
     const InventoryItems = document.querySelector(".Inventory-items");
-    const InventoryButton = document.querySelector(".inventoryLI"); // **
     const submenu = document.querySelector(".submenu"); // **
+    const ShoppingToolsButton = document.querySelector(".shoppingtoolsLI"); // **
+    const vehicelsButton = document.querySelector(".vehicelsLI");
+    const InventoryButton = document.querySelector(".inventoryLI"); // **
     const submenuButton = document.querySelector(".submenuIcon");
 
     vehicelsButton.addEventListener("click", function () {
@@ -113,3 +113,13 @@ const buttonDocument = document.querySelector(".ad-button-document");
 buttonDocument.addEventListener("click", function () {
     buttonDocument.classList.toggle("background-color-special");
 })
+
+
+document.onclick = function(e){
+    if(e.target.id !== ShoppingToolsButton || e.target.id !== vehicelsButton || e.target.id !== InventoryButton || e.target.id !== submenuButton){
+        vehicelsItems.classList.add("hidden-height");
+        ShoppingToolsItems.classList.add("hidden-height");
+        InventoryItems.classList.add("hidden-height");
+        submenu.classList.add("hidden-height");
+    }
+}
