@@ -243,6 +243,7 @@ button:nth-of-type(1):hover {
 .SignUp .SignUp-text p:nth-of-type(1) {
     font-size: calc(22px + 0.5vw);
     font-weight: 300;
+
 }
 
 .SignUp .SignUp-text p:nth-of-type(2) {
@@ -250,19 +251,26 @@ button:nth-of-type(1):hover {
 }
 
 .firstfooter {
-    height: 70px;
+    height: 100px;
     background-color: #212121;
 }
 
 .firstfooterUL .firstfooterLI .firstfooterA {
     font-size: calc(12px + 0.5vw);
     color: #eaeaea;
+    display: flex;
+    justify-content: center;
 }
 
+@media all and (max-width:768px) {
+    .firstfooterA {
+        font-size: 13px !important;
+        display: inline !important;
+        margin-left: 50px !important;
+    }
 
-.firstfooterUL .firstfooterLI {
-    width: 17%;
 }
+
 
 .firstfooterUL .firstfooterLI .firstfooterA:hover {
     text-decoration: underline white !important;
@@ -271,6 +279,7 @@ button:nth-of-type(1):hover {
 
 .firstfooterUL .firstfooterLI .firstfooterA i {
     font-size: calc(7px + 0.5vw);
+    margin-left: 5px;
 }
 
 .secondfooter {
@@ -280,6 +289,7 @@ button:nth-of-type(1):hover {
 .secondfooter .header-part1 {
     height: 50px;
     cursor: pointer;
+
 }
 
 .secondfooter .header-part1,
@@ -288,6 +298,20 @@ button:nth-of-type(1):hover {
     font-size: calc(12px + 0.5vw);
     color: white;
     line-height: 50px;
+
+}
+
+@media all and (min-width:768px) {
+    .ULsItems p {
+        margin-left: 120px !important;
+        margin-top: 20px !important;
+    }
+}
+
+@media all and (min-width:768px) {
+    .footerULitem li {
+        margin-left: 120px !important;
+    }
 }
 
 .footerItem {
@@ -296,7 +320,6 @@ button:nth-of-type(1):hover {
 
 .secondfooter .header-part1 i {
     top: 50%;
-    right: 3%;
     transform: translate(-50%, -50%);
     font-size: calc(20px);
     color: white;
@@ -326,6 +349,13 @@ button:nth-of-type(1):hover {
     color: #8f0c2c;
 }
 
+@media all and (min-width:768px) {
+    .SocialMediaLinks p {
+        margin-left: 100px !important;
+        font-size: 20px !important;
+    }
+}
+
 .last-explanation .explanation-items {
     font-size: calc(5px + 0.5vw);
 }
@@ -336,23 +366,25 @@ button:nth-of-type(1):hover {
     opacity: 0.6;
 }
 
-.ShoppingToolsPART2 .ShoppingToolsULPART2  li a:hover{
+.ShoppingToolsPART2 .ShoppingToolsULPART2 li a:hover {
     text-decoration: underline black !important;
 }
 
-.ASHOPPINGTOOLULfirst{
+.ASHOPPINGTOOLULfirst {
     font-size: calc(9px + 0.5vw) !important;
 }
 
-.ad-buttons{
-    top: 10px;
+.ad-buttons {
+    top: 75px;
     left: 0;
 }
-.ad-icon{
+
+.ad-icon {
     width: calc(25px + 0.5vw) !important;
     height: calc(25px + 0.5vw) !important;
     background-color: gray !important;
 }
+
 @media all and (min-width:576px) {
     .footerItem {
         border: 0;
@@ -361,13 +393,14 @@ button:nth-of-type(1):hover {
 }
 
 @media all and (min-width:1200px) {
-    .Experience .Experience-items .Experience-button  {
+    .Experience .Experience-items .Experience-button {
         width: calc(150px + 0.5vw) !important;
         position: absolute;
-        bottom: 60px;
+        top: 500px;
         left: 10px;
     }
-    .Experience .Experience-items  {
+
+    .Experience .Experience-items {
         height: 450px !important;
     }
 }
@@ -380,6 +413,7 @@ button:nth-of-type(1):hover {
     .last-explanation .explanation-items {
         font-size: calc(7px + 0.5vw);
     }
+
     .text-part1 {
         height: 100px;
         top: 70%;
@@ -390,9 +424,9 @@ button:nth-of-type(1):hover {
         text-align: center;
     }
 
-    
- 
-    
+
+
+
 }
 
 @media all and (max-width:767px) {
@@ -501,7 +535,7 @@ button:nth-of-type(1):hover {
     }
 
     .discover img {
-        height: 500px !important;
+        height: auto !important;
     }
 
     .firstfooterUL {
@@ -515,7 +549,8 @@ button:nth-of-type(1):hover {
     .Experience .Experience-items {
         height: 500px;
     }
-    .Experience .Experience-items img{
+
+    .Experience .Experience-items img {
         height: 60% !important;
     }
 
@@ -523,7 +558,9 @@ button:nth-of-type(1):hover {
         height: 100px;
         background-color: #212121;
     }
-    .text-part1,.text-part2 {
+
+    .text-part1,
+    .text-part2 {
         visibility: hidden;
     }
 
@@ -541,6 +578,7 @@ button:nth-of-type(1):hover {
 
     .SignUp-button {
         position: relative;
+        margin-bottom: 40px;
     }
 
     .SignUp-button button {
@@ -554,6 +592,6 @@ button:nth-of-type(1):hover {
     height: 0 !important;
 }
 
-.background-color-special{
+.background-color-special {
     background-color: white !important;
 }
