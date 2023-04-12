@@ -115,11 +115,3 @@ buttonDocument.addEventListener("click", function () {
 })
 
 
-document.onclick = function(e){
-    if(e.target.id !== ShoppingToolsButton || e.target.id !== vehicelsButton || e.target.id !== InventoryButton || e.target.id !== submenuButton){
-        vehicelsItems.classList.add("hidden-height");
-        ShoppingToolsItems.classList.add("hidden-height");
-        InventoryItems.classList.add("hidden-height");
-        submenu.classList.add("hidden-height");
-    }
-}
