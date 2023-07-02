@@ -256,7 +256,7 @@ button:nth-of-type(1):hover {
 }
 
 .firstfooterUL .firstfooterLI .firstfooterA {
-    font-size: calc(12px + 0.5vw);
+    font-size: calc(11px + 0.5vw) !important;
     color: #eaeaea;
     display: flex;
     justify-content: center;
@@ -264,11 +264,9 @@ button:nth-of-type(1):hover {
 
 @media all and (max-width:768px) {
     .firstfooterA {
-        font-size: 13px !important;
         display: inline !important;
-        margin-left: 50px !important;
+        margin-left: 30px !important;
     }
-
 }
 
 
@@ -392,16 +390,36 @@ button:nth-of-type(1):hover {
 
 }
 
+.swiper-button-prev{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+.swiper-button-prev{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+}
 @media all and (min-width:1200px) {
     .Experience .Experience-items .Experience-button {
         width: calc(150px + 0.5vw) !important;
         position: absolute;
-        top: 500px;
-        left: 10px;
+        transition: all 300ms ease;
     }
 
     .Experience .Experience-items {
-        height: 450px !important;
+        height: 550px !important;
+    }
+}
+
+@media all and (max-width:1200px) {
+    .Experience .Experience-items .Experience-button {
+        width: calc(150px + 0.5vw) !important;
+        position: absolute;
+        transition: all 300ms ease;
+    }
+    .Experience .Experience-items {
+        height: 490px !important;
     }
 }
 
